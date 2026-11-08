@@ -33,7 +33,7 @@ jobs:
             name: octomatch
             path: website
         - name: Deploy to Dev
-        run: |
-            echo "Downloaded artifact contents:"
-            tree website
-            echo "Demo deploy step: replace with your real deploy command."
+            run: |
+                echo "Downloaded artifact contents:"
+                tree website
+                echo "Demo deploy step: replace with your real deploy command."
